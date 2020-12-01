@@ -1,0 +1,122 @@
+.navbar {
+    background-color: aliceblue;
+    height: 46px;
+    position: relative;
+    top: 0px;
+}
+.navbar ul {
+    display: inline;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    position: relative;
+    top: 15px;
+    left: -35px;
+}
+.navbar li {
+    display: inline;
+    align-items: center;
+    padding: 10px;
+    background-color: rgb(179, 192, 204);
+    cursor: pointer;
+}
+ul>li:hover {
+    background-color: rgb(146, 151, 156);  
+}
+.merch {
+    position: relative;
+    float: right;
+    top: -10px;
+    right: -30px;
+}
+.bannerimg img {
+    opacity: 90%;
+    margin-top: 10px;
+}
+.bannerimg div {
+    position: relative;
+    font-size: 500%;
+    top: -100px;
+    right: -34.5%;
+    color: white;
+}
+.tri-containter {
+    display: flex;
+    text-align: center;
+    position: relative;
+    top: -100px;
+}
+.item1,
+.item2,
+.item3 {
+    flex: 1;
+    margin-top: 20px;
+    padding-top: 10px;
+    border: darkgray solid 1px;
+    margin-right: 15px;
+    padding-right: 10px;
+    margin-left: 15px;
+    padding-left: 10px;
+    padding-bottom: 10px;
+    background-color: aliceblue;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+.tri-containter span {
+    font-weight: bold;
+}
+.bio {
+    width: 50%;
+    background-color: rgb(242, 245, 248);
+    box-shadow: aliceblue 5px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    display: block;
+    position: relative;
+    left: 25%;
+    top: -80px;
+    padding: 10px;
+    text-align: center;
+}
+.titlebar {
+    text-align: center;
+    background-color: rgba(221, 160, 221, 0.356);
+    margin-top: 10px;
+    padding-top: 10px;
+    margin-bottom: 10px;
+    padding-bottom: 10px;
+    font-size: 150%;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+.projectitems {
+    display: block;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    padding-left: 5%;
+    padding-right: 5%;
+    padding-top: 2%;
+}
+.projectitems div {
+    background-color: aliceblue;
+    padding-left: 2%;
+    padding-right: 2%;
+    padding-bottom: 2%;
+    margin-bottom: 3%;
+}
+.projectitems span {
+    font-weight: bold;
+    font-style: oblique;
+}
+.contact-container {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    position: relative;
+    width: 50%;
+    left: 25%;
+    top: 22px;
+    background-color: rgb(242, 245, 248);
+}
+.contact-container div {
+    text-align: center;
+    padding-top: 2%;
+    padding-bottom: 2%;
+}
+.contactblurb {
+    position: relative;
+    width: 44%;
+    left: 28%;
+}
